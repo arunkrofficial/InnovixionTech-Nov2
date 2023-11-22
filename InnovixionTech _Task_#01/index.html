@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown Timer | Arun Kumar</title>
+</head>
+
+<body>
+    <section class="home" id="home">
+        <div class="card" id="card">
+            <h1 class="heading-1">Countdown Timer</h1>
+        </div>
+
+        <div class="table" id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Enter Date</th>
+                        <th>Enter Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="date" id="date"></td>
+                        <td><input type="time" id="time"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="btns" id="btns">
+            <button class="custom-btn btn-7" id="calculate"><span>Start</span></button>
+            <button class="custom-btn btn-7" id="stop"><span>Stop</span></button>
+            <button class="custom-btn btn-7" id="reset"><span>Reset</span></button>
+        </div>
+
+        <div class="countdown">
+            <div class="single-card">
+                <p class="heading">DAY</p>
+                <div class="time" id="countdown-days">0</div>
+            </div>
+            <div class="single-card">
+                <p class="heading">HOURS</p>
+                <div class="time" id="countdown-hours">0</div>
+            </div>
+            <div class="single-card">
+                <p class="heading">MINUTES</p>
+                <div class="time" id="countdown-minutes">0</div>
+            </div>
+            <div class="single-card">
+                <p class="heading">SECONDS</p>
+                <div class="time" id="countdown-seconds">0</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
